@@ -1,0 +1,151 @@
+C:/Users/Azadi/Desktop/C_Project/src/mux_2to1.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/mux_2to1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mux_2to1
+
+Top level modules:
+	mux_2to1
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/Huffman_controller.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/Huffman_controller.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/comparator.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/comparator.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/Cuckoo_Filter.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/Cuckoo_Filter.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Cuckoo_Filter
+
+Top level modules:
+	Cuckoo_Filter
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/memory_64bit.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/memory_64bit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module memory_64bit
+
+Top level modules:
+	memory_64bit
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/mux_4to1.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/mux_4to1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mux_4to1
+
+Top level modules:
+	mux_4to1
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/fingerprint_hash.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/fingerprint_hash.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fingerprint_hash
+
+Top level modules:
+	fingerprint_hash
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/hash_index1.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/hash_index1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module hash_index1
+
+Top level modules:
+	hash_index1
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/hash_index2.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/hash_index2.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module hash_index2
+
+Top level modules:
+	hash_index2
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/d_flip_flop.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/d_flip_flop.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module d_flip_flop
+
+Top level modules:
+	d_flip_flop
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/mult_hash_6cycle_32bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/mult_hash_6cycle_32bit.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mult_hash_6cycle_32bit
+-- Compiling architecture mult_hash_6cycle_32bit_arch of mult_hash_6cycle_32bit
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/big_comparator.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/big_comparator.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module big_comparator
+
+Top level modules:
+	big_comparator
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/blk_mem_gen_Add16bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/blk_mem_gen_Add16bit.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package vl_types
+-- Loading entity blk_mem_gen_v8_4_3
+-- Compiling entity blk_mem_gen_Add16bit
+-- Compiling architecture blk_mem_gen_Add16bit_arch of blk_mem_gen_Add16bit
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/mask_generator.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/mask_generator.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mask_generator
+
+Top level modules:
+	mask_generator
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/sim/System_TestBench.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/sim/System_TestBench.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module System_tb
+
+Top level modules:
+	System_tb
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/register.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/register.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/empty_slot_check.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/empty_slot_check.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module empty_slot_check
+
+Top level modules:
+	empty_slot_check
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/blk_mem_16bit_rest.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/blk_mem_16bit_rest.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package vl_types
+-- Loading entity blk_mem_gen_v8_4_3
+-- Compiling entity blk_mem_16bit_rest
+-- Compiling architecture blk_mem_16bit_rest_arch of blk_mem_16bit_rest
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/System.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/System.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module System
+
+Top level modules:
+	System
+
+} {} {}} C:/Users/Azadi/Desktop/C_Project/src/data_path.v {1 {vlog -work work -vopt -stats=none C:/Users/Azadi/Desktop/C_Project/src/data_path.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module data_path
+
+Top level modules:
+	data_path
+
+} {} {}}

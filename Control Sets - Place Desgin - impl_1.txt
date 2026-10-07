@@ -1,0 +1,104 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue May 20 23:02:46 2025
+| Host         : DESKTOP-C8N44DC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Cuckoo_Filter_control_sets_placed.rpt
+| Design       : Cuckoo_Filter
+| Device       : xc7k70t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    26 |
+|    Minimum number of control sets                        |    26 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    67 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    26 |
+| >= 0 to < 4        |     8 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    13 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             146 |           44 |
+| No           | No                    | Yes                    |               4 |            3 |
+| No           | Yes                   | No                     |              16 |            8 |
+| Yes          | No                    | No                     |             112 |           41 |
+| Yes          | No                    | Yes                    |             284 |           69 |
+| Yes          | Yes                   | No                     |               3 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------------------------------+--------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|                             Clock Signal                             |                      Enable Signal                     |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++----------------------------------------------------------------------+--------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  clock_IBUF_BUFG                                                     | CF_Controller/load_Delete_Done_DFF_Ctrl_2_DP           | CF_Controller/AR[0]                            |                1 |              1 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/load_Insert_Done_DFF_Ctrl_2_DP           | CF_Controller/AR[0]                            |                1 |              1 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/load_Lookup_result_DFF_Ctrl_2_DP         | CF_Controller/AR[0]                            |                1 |              1 |
+|  CF_Controller/MUXs_Select_Manager_Reg_input_reg[3]_i_2_n_0          |                                                        |                                                |                1 |              1 |
+|  CF_Controller/Row_Position_Reg_reg[2]_i_2_n_0                       |                                                        |                                                |                1 |              1 |
+|  CF_Data_Path/Comp_FP_mem_Reg/FSM_sequential_present_state_reg[2][0] |                                                        |                                                |                1 |              2 |
+|  CF_Controller/Row_Position_Reg_reg[1]_i_2_n_0                       |                                                        |                                                |                1 |              2 |
+|  CF_Controller/MUXs_Select_Manager_Reg_input_reg[2]_i_2_n_0          |                                                        |                                                |                2 |              3 |
+|  clock_IBUF_BUFG                                                     |                                                        | reset_IBUF                                     |                3 |              4 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/FSM_sequential_present_state_reg[0]_0[0] | CF_Controller/AR[0]                            |                1 |              4 |
+|  clock_IBUF_BUFG                                                     |                                                        | CF_Controller/counter_hash_pipline[7]_i_1_n_0  |                3 |              8 |
+|  clock_IBUF_BUFG                                                     |                                                        | CF_Controller/limit_memory_wait_Reg[7]_i_1_n_0 |                5 |              8 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/FSM_sequential_present_state_reg[3]_1[0] | CF_Controller/AR[0]                            |                4 |              8 |
+|  clock_IBUF_BUFG                                                     | load_FP_Fixed_Coefficient_Reg_IBUF                     |                                                |                7 |             16 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/load_Reg_homeless_evicted_Ctrl_2_DP      | CF_Controller/AR[0]                            |                5 |             16 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/E[0]                                     | CF_Controller/AR[0]                            |                5 |             16 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/FSM_sequential_present_state_reg[2]_0[0] | CF_Controller/AR[0]                            |                4 |             16 |
+|  CF_Controller/limit_loop_Reg_reg[15]_i_2_n_0                        |                                                        |                                                |                7 |             16 |
+|  clock_IBUF_BUFG                                                     | load_Hash_Index2_Fixed_Coefficient_Reg_IBUF            |                                                |               13 |             32 |
+|  clock_IBUF_BUFG                                                     | load_Hash_Index1_Fixed_Coefficient_Reg_IBUF            |                                                |               14 |             32 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/load_Reg_FP_Ctrl_2_DP                    | CF_Controller/AR[0]                            |                8 |             32 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/FSM_sequential_present_state_reg[0]_2[0] |                                                |                7 |             32 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/FSM_sequential_present_state_reg[1]_0[0] | CF_Controller/AR[0]                            |               11 |             64 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/FSM_sequential_present_state_reg[3]_2[0] | CF_Controller/AR[0]                            |               12 |             64 |
+|  clock_IBUF_BUFG                                                     | CF_Controller/FSM_sequential_present_state_reg[3]_0[0] | CF_Controller/AR[0]                            |               19 |             64 |
+|  clock_IBUF_BUFG                                                     |                                                        |                                                |               31 |            139 |
++----------------------------------------------------------------------+--------------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+

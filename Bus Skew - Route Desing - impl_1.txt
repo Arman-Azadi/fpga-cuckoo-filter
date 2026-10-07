@@ -1,0 +1,15 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue May 20 23:03:10 2025
+| Host         : DESKTOP-C8N44DC running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file Cuckoo_Filter_bus_skew_routed.rpt -pb Cuckoo_Filter_bus_skew_routed.pb -rpx Cuckoo_Filter_bus_skew_routed.rpx
+| Design       : Cuckoo_Filter
+| Device       : 7k70t-fbg676
+| Speed File   : -3  PRODUCTION 1.12 2017-02-17
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
